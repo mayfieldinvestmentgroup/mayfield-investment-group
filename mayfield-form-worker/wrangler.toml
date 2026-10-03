@@ -1,0 +1,16 @@
+name = "may"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[[send_email]]
+name = "EMAIL"
+destination_address = "info@mayfieldinvestmentgroup.com"
+allowed_sender_addresses = ["forms@mayfieldinvestmentgroup.com"]
+
+[[routes]]
+pattern = "mayfieldinvestmentgroup.com/api/*"
+zone_name = "mayfieldinvestmentgroup.com"
+
+[[routes]]
+pattern = "www.mayfieldinvestmentgroup.com/api/*"
+zone_name = "mayfieldinvestmentgroup.com"
